@@ -1,0 +1,21 @@
+group 'com.miexample'
+version '1.0-SNAPSHOT'
+
+
+dependencies {
+    compile project(":demo-common")
+}
+
+processResources {
+    exclude "**"
+}
+
+jar {
+    from('src/main/resources') {
+        into ("META-INF/")
+    }
+}
+
+task hello(type: Jar) {
+
+}
