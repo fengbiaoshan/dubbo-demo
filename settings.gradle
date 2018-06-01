@@ -1,4 +1,5 @@
 rootProject.name = 'ts-dubbo'
 include 'demo-common'
 include 'demo-provider'
+include 'demo-consumer'
 
